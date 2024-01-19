@@ -1,0 +1,38 @@
+17:01:16 **** Rebuild of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hello.o "..\\hello.c" 
+gcc -o test.exe hello.o 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/../lib/libmingw32.a(lib64_libmingw32_a-crt0_c.o):crt0_c.c:(.text.startup+0x2e): undefined reference to `WinMain'
+collect2.exe: error: ld returned 1 exit status
+17:02:38 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -o test.exe hello.o 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/../lib/libmingw32.a(lib64_libmingw32_a-crt0_c.o):crt0_c.c:(.text.startup+0x2e): undefined reference to `WinMain'
+collect2.exe: error: ld returned 1 exit status
+17:02:44 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hello.o "..\\hello.c" 
+..\hello.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+    9 | void main(){
+      |      ^~~~
+gcc -o test.exe hello.o 
+Info: Nothing to build for test
+Info: Nothing to build for test
+Info: Nothing to build for test
+Info: Nothing to build for test
+17:03:51 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hello.o "..\\hello.c" 
+..\hello.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+    9 | void main(){
+      |      ^~~~
+gcc -o test.exe hello.o 
+Info: Nothing to build for test
+17:04:34 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hello.o "..\\hello.c" 
+..\hello.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+    9 | void main(){
+      |      ^~~~
+gcc -o test.exe hello.o 
+Info: Nothing to build for test
